@@ -1,0 +1,144 @@
+
+Call:
+lm(formula = learnings ~ married + age2 + agegrp + college + 
+    university + pgraduate + BIL_MEFE + BIL_MEFF + BIL_FRENCH + 
+    professional + smprofessional + bluecollar + goods + service, 
+    data = male, weights = mw)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.46074 -0.28935 -0.00902  0.27991  2.85949 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     7.662e+00  9.232e-02  82.996  < 2e-16 ***
+married        -2.277e-01  8.507e-03 -26.773  < 2e-16 ***
+age2           -1.927e-02  6.293e-04 -30.623  < 2e-16 ***
+agegrp          5.265e-01  1.531e-02  34.390  < 2e-16 ***
+college         1.661e-01  7.525e-03  22.068  < 2e-16 ***
+university      3.849e-01  9.415e-03  40.880  < 2e-16 ***
+pgraduate       5.333e-01  1.367e-02  39.013  < 2e-16 ***
+BIL_MEFE        9.640e-03  1.381e-02   0.698   0.4853    
+BIL_MEFF        5.081e-02  2.280e-02   2.229   0.0258 *  
+BIL_FRENCH     -1.081e-01  8.568e-02  -1.261   0.2072    
+professional   -6.480e-02  9.180e-03  -7.059 1.72e-12 ***
+smprofessional -3.350e-01  1.004e-02 -33.351  < 2e-16 ***
+bluecollar     -1.807e-01  8.664e-03 -20.857  < 2e-16 ***
+goods          -5.448e-05  9.268e-03  -0.006   0.9953    
+service        -1.538e-02  9.432e-03  -1.630   0.1030    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5339 on 30210 degrees of freedom
+Multiple R-squared:  0.3149,	Adjusted R-squared:  0.3146 
+F-statistic:   992 on 14 and 30210 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = learnings ~ married + age2 + agegrp + college + 
+    university + pgraduate + BIL_MEFE + BIL_MEFF + BIL_FRENCH + 
+    professional + smprofessional + bluecollar + goods + service, 
+    data = female, weights = fw)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.32394 -0.26300  0.01995  0.26547  2.26277 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     7.2150715  0.0881699  81.831  < 2e-16 ***
+married        -0.0473697  0.0078581  -6.028 1.68e-09 ***
+age2           -0.0189093  0.0006081 -31.095  < 2e-16 ***
+agegrp          0.5288985  0.0147629  35.826  < 2e-16 ***
+college         0.0945985  0.0080674  11.726  < 2e-16 ***
+university      0.4238336  0.0088574  47.851  < 2e-16 ***
+pgraduate       0.5741650  0.0118461  48.469  < 2e-16 ***
+BIL_MEFE        0.0606385  0.0121903   4.974 6.59e-07 ***
+BIL_MEFF        0.1137489  0.0168563   6.748 1.53e-11 ***
+BIL_FRENCH      0.0102397  0.0415803   0.246    0.805    
+professional   -0.0106031  0.0078429  -1.352    0.176    
+smprofessional -0.3080754  0.0084560 -36.433  < 2e-16 ***
+bluecollar     -0.1373781  0.0169318  -8.114 5.13e-16 ***
+goods          -0.0127343  0.0090087  -1.414    0.158    
+service         0.0055345  0.0080149   0.691    0.490    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4684 on 25590 degrees of freedom
+Multiple R-squared:  0.3413,	Adjusted R-squared:  0.3409 
+F-statistic:   947 on 14 and 25590 DF,  p-value: < 2.2e-16
+
+[[1]]
+
+Call:
+lm(formula = learnings ~ married + age2 + agegrp + college + 
+    university + pgraduate + BIL_MEFE + BIL_MEFF + BIL_FRENCH + 
+    professional + smprofessional + bluecollar + goods + service, 
+    data = male, weights = mw)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.46074 -0.28935 -0.00902  0.27991  2.85949 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     7.662e+00  9.232e-02  82.996  < 2e-16 ***
+married        -2.277e-01  8.507e-03 -26.773  < 2e-16 ***
+age2           -1.927e-02  6.293e-04 -30.623  < 2e-16 ***
+agegrp          5.265e-01  1.531e-02  34.390  < 2e-16 ***
+college         1.661e-01  7.525e-03  22.068  < 2e-16 ***
+university      3.849e-01  9.415e-03  40.880  < 2e-16 ***
+pgraduate       5.333e-01  1.367e-02  39.013  < 2e-16 ***
+BIL_MEFE        9.640e-03  1.381e-02   0.698   0.4853    
+BIL_MEFF        5.081e-02  2.280e-02   2.229   0.0258 *  
+BIL_FRENCH     -1.081e-01  8.568e-02  -1.261   0.2072    
+professional   -6.480e-02  9.180e-03  -7.059 1.72e-12 ***
+smprofessional -3.350e-01  1.004e-02 -33.351  < 2e-16 ***
+bluecollar     -1.807e-01  8.664e-03 -20.857  < 2e-16 ***
+goods          -5.448e-05  9.268e-03  -0.006   0.9953    
+service        -1.538e-02  9.432e-03  -1.630   0.1030    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5339 on 30210 degrees of freedom
+Multiple R-squared:  0.3149,	Adjusted R-squared:  0.3146 
+F-statistic:   992 on 14 and 30210 DF,  p-value: < 2.2e-16
+
+
+[[2]]
+
+Call:
+lm(formula = learnings ~ married + age2 + agegrp + college + 
+    university + pgraduate + BIL_MEFE + BIL_MEFF + BIL_FRENCH + 
+    professional + smprofessional + bluecollar + goods + service, 
+    data = female, weights = fw)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.32394 -0.26300  0.01995  0.26547  2.26277 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     7.2150715  0.0881699  81.831  < 2e-16 ***
+married        -0.0473697  0.0078581  -6.028 1.68e-09 ***
+age2           -0.0189093  0.0006081 -31.095  < 2e-16 ***
+agegrp          0.5288985  0.0147629  35.826  < 2e-16 ***
+college         0.0945985  0.0080674  11.726  < 2e-16 ***
+university      0.4238336  0.0088574  47.851  < 2e-16 ***
+pgraduate       0.5741650  0.0118461  48.469  < 2e-16 ***
+BIL_MEFE        0.0606385  0.0121903   4.974 6.59e-07 ***
+BIL_MEFF        0.1137489  0.0168563   6.748 1.53e-11 ***
+BIL_FRENCH      0.0102397  0.0415803   0.246    0.805    
+professional   -0.0106031  0.0078429  -1.352    0.176    
+smprofessional -0.3080754  0.0084560 -36.433  < 2e-16 ***
+bluecollar     -0.1373781  0.0169318  -8.114 5.13e-16 ***
+goods          -0.0127343  0.0090087  -1.414    0.158    
+service         0.0055345  0.0080149   0.691    0.490    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4684 on 25590 degrees of freedom
+Multiple R-squared:  0.3413,	Adjusted R-squared:  0.3409 
+F-statistic:   947 on 14 and 25590 DF,  p-value: < 2.2e-16
+
+
